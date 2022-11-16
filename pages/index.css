@@ -20,19 +20,19 @@
   padding: 28px 48px 0;
 }
 
-.heaader__lang-links {
+.header__lang-links {
   list-style-type: none;
   display: flex;
   gap: 18px;
 }
 
-.heder__logo {
+.header__logo {
   width: 178px;
   height: 52px;
   object-fit: contain;
 }
 
-.heaader__lang-link {
+.header__lang-link {
   color: #FFFFFF;
   font-family: 'Inter';
   font-style: normal;
@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 
-.heaader__lang-link_active {
+.header__lang-link_active {
   text-decoration: underline;
 }
 
@@ -163,7 +163,7 @@
   grid-template-rows: 152px 460px;
   grid-template-areas:
   "title website"
-  "image paragraph";
+  "image paragraphs";
   gap: 40px 40px;
 }
 
@@ -187,6 +187,10 @@
 
 .place__website {
   grid-area: website;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: end;
 }
 
 .place__url-heading {
@@ -215,6 +219,13 @@
 
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+
+.place__paragraphs {
+  grid-area: paragraphs;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 .place__paragraph {
