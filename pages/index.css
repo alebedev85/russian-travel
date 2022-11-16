@@ -133,4 +133,20 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+
+}
+
+/*Photo-grid*/
+.photo-grid {
+  padding: 92px 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 213px);
+  gap: 16px;
+}
+
+.photo-grid_item {
+  width: 284px;
+  height: 213px;
+  object-fit: contain;
 }
