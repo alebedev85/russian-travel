@@ -1,22 +1,33 @@
 @import url(../vendor/normalize.css);
 
+* {
+  border: 1px solid red;
+}
+
 .page {
   background-color: #2A2C2F;
   color: #FFFFFF;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .header {
-
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 48px 0;
+  padding: 28px 48px 0;
 }
 
 .heaader__language-links {
   list-style-type: none;
   display: flex;
   gap: 18px;
+}
+
+.logo {
+  width: 178px;
+  height: 52px;
+  object-fit: contain;
 }
 
 .heaader__language-link {
@@ -29,6 +40,7 @@
   text-decoration: none;
 }
 
-* {
-  border: 1px solid red;
+.heaader__language-link_active {
+  text-decoration: underline;
 }
+
