@@ -19,6 +19,60 @@
 /*Places*/
 @import url(../blocks/places/places.css);
 
+/*Cover*/
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1184px;
+  height: 740px;
+  background-image: url(../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.cover__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  max-width: 560px;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  max-width: 360px;
+  z-index: 1;
+
+}
+
+.cover__overlay {
+  color: #FFFFFF;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}
+
 * {
   border: 1px solid red;
 }
