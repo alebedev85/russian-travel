@@ -1,0 +1,37 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 92px 148px 0;
+}
+
+.intro__title {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+}
+
+.intro__text {
+  margin: 40px 0 33px;
+  max-width: 690px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+  list-style-type: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+
+}

@@ -1,241 +1,24 @@
 @import url(../vendor/normalize.css);
 
-* {
-  border: 1px solid red;
-}
-
 /*Page*/
-.page {
-  background-color: #2A2C2F;
-  color: #FFFFFF;
-  max-width: 1280px;
-  margin: 0 auto;
-}
+@import url(../blocks/page/page.css);
 
 /*Header*/
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 28px 48px 0;
-}
-
-.header__lang-links {
-  list-style-type: none;
-  display: flex;
-  gap: 18px;
-}
-
-.header__logo {
-  width: 178px;
-  height: 52px;
-  object-fit: contain;
-}
-
-.header__lang-link {
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration: none;
-}
-
-.header__lang-link_active {
-  text-decoration: underline;
-}
+@import url(../blocks/header/header.css);
 
 /*Main*/
 /*Lead*/
-
-.lead {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 56px 148px 0;
-}
-
-.lead__title {
-  max-width: 720px;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 104%;
-  text-align: center;
-}
-.lead__subtitle {
-  max-width: 640px;
-  margin: 32px 0 64px;
-  padding: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 120%;
-  text-align: center;
-}
-
-.lead__image {
-  width: 100%;
-  object-fit: contain;
-}
-
-.lead__caption {
-  margin: 8px 0 0;
-  padding: 0;
-  align-self: start;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 140%;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
+@import url(../blocks/lead/lead.css);
 
 /*Intro*/
-.intro {
-  display: flex;
-  flex-direction: column;
-  padding: 92px 148px 0;
-}
-
-.intro__title {
-  margin: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 107%;
-}
-
-.intro__text {
-  margin: 40px 0 33px;
-  max-width: 690px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-}
-
-.intro__list {
-  margin: 0;
-  padding: 0;
-  max-width: 690px;
-  list-style-type: none;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-
-}
+@import url(../blocks/intro/intro.css);
 
 /*Photo-grid*/
-.photo-grid {
-  padding: 92px 48px;
-  display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
-  gap: 16px;
-}
-
-.photo-grid_item {
-  width: 284px;
-  height: 213px;
-  object-fit: contain;
-}
+@import url(../blocks/photo-grid/photo-grid.css);
 
 /*Places*/
-.places {
-  padding: 92px 148px 0;
+@import url(../blocks/places/places.css);
 
-}
-
-.place {
-  display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: 152px 460px;
-  grid-template-areas:
-  "title website"
-  "image paragraphs";
-  gap: 40px 40px;
-}
-
-.place__title {
-  grid-area: title;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 106%;
-}
-
-.place__image {
-  grid-area: image;
-  width: 460px;
-  height: 460px;
-  object-fit: contain;
-}
-
-.place__website {
-  grid-area: website;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  justify-content: end;
-}
-
-.place__url-heading {
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  /* identical to box height, or 100% */
-
-  letter-spacing: 2px;
-  color: #AAAAAA;
-}
-
-.place__link {
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122%;
-  /* identical to box height, or 122% */
-
-  text-decoration-line: underline;
-  color: #FFFFFF;
-}
-
-.place__paragraphs {
-  grid-area: paragraphs;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-
-.place__paragraph {
-  margin: 0;
-  padding: 0;
-  max-width: 484px;
-  grid-area: paragraph;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
+* {
+  border: 1px solid red;
 }
