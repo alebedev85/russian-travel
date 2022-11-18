@@ -23,6 +23,13 @@
 /*Cover*/
 @import url(../blocks/cover/cover.css);
 
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+
+.pointer{
+  cursor: pointer;
+}
+
 * {
   border: 1px solid red;
 }
