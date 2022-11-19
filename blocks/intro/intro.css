@@ -33,5 +33,18 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+}
 
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 56px 48px 0;
+    background-color: rgb(98, 98, 229);
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .intro {
+    padding: 56px 24px 0;
+    background-color: rgb(98, 98, 229);
+  }
 }
