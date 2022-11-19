@@ -37,14 +37,27 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 56px 48px 0;
+    padding-left: 48px;
+    padding-right: 48px;
     background-color: rgb(98, 98, 229);
   }
 }
 
 @media screen and (max-width: 928px) {
   .intro {
-    padding: 56px 24px 0;
+    padding: 88px 24px 0;
     background-color: rgb(98, 98, 229);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro {
+    padding: 64px 16px 0;
+    background-color: red;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
   }
 }
