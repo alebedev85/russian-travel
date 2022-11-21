@@ -141,6 +141,7 @@
   .places {
     padding-left: 0px;
     padding-right: 0px;
+    gap: 50px;
   }
 
   .place {
