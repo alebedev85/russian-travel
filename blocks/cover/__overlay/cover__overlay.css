@@ -1,0 +1,32 @@
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 245px 0;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, 0.3);
+  box-sizing: border-box;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    padding: 192px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    padding: 33px 0;
+  }
+}
