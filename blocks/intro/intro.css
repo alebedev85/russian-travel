@@ -4,60 +4,21 @@
   padding: 92px 148px 0;
 }
 
-.intro__title {
-  margin: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 107%;
-}
-
-.intro__text {
-  margin: 40px 0 33px;
-  max-width: 690px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-}
-
-.intro__list {
-  margin: 0;
-  padding: 0;
-  max-width: 690px;
-  list-style-type: none;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-}
-
 @media screen and (max-width: 1024px) {
   .intro {
     padding-left: 48px;
     padding-right: 48px;
-    background-color: rgb(98, 98, 229);
   }
 }
 
 @media screen and (max-width: 928px) {
   .intro {
     padding: 88px 24px 0;
-    background-color: rgb(98, 98, 229);
   }
 }
 
 @media screen and (max-width: 720px) {
   .intro {
     padding: 64px 16px 0;
-    background-color: red;
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
   }
 }
