@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
+@import url(../pointed/pointed.css);
 
 /*Page*/
 @import url(../blocks/page/page.css);
