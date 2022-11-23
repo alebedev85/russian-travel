@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .cover__blackout{
+  .cover__blackout {
     padding-top: 33px;
     padding-bottom: 33px;
   }
