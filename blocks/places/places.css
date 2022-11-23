@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 610px) {
   .places {
     padding-left: 0px;
     padding-right: 0px;
