@@ -27,6 +27,7 @@
   .places {
     padding-left: 0px;
     padding-right: 0px;
+    padding-bottom: 66px;
     gap: 50px;
   }
 }
